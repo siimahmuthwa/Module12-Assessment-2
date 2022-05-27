@@ -1,0 +1,22 @@
+body {
+  padding-top: 2;
+  margin: 0;
+  background: #f3f714;
+  text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 150%;
+    min-width: 150%;
+    left: 0;
+    top: 0;
+    background: rgba(236, 10, 218, 0.6);
+}
+
+.team{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
